@@ -1,0 +1,152 @@
+body{
+	padding:0;
+	margin:0;
+	font-family:trajan pro;
+	background-image:url('bg1.jpg');
+	background-size: cover;
+	background-position: center;
+}
+.nav-wrapper container
+{
+	padding:0;
+	margin:0;
+	font-family:trajan pro;
+	background-image:url('bg10.jpg');
+	background-size: cover;
+	background-position: center;
+}
+.menu-bar
+{
+	background: #502e09;
+	opacity:.7;
+	text-align: center;
+}
+
+.menu-bar ul
+{
+	display: inline-flex;
+	list-style: none;
+	color: #fff;
+}
+
+.menu-bar ul li
+{
+	width: 200px;
+	margin: 5px;
+	padding: 5px;
+}
+
+.menu-bar ul li a
+{
+	text-decoration: none;
+	color: #fff;
+}
+
+.active, .menu-bar ul li:hover
+{
+	background: #ccced7;
+	border-radius: 3px;
+}
+
+.sub-menu1
+{
+	display: none;
+}
+.menu-bar ul li:hover .sub-menu1
+{
+	display: block;
+	position: absolute;
+	background: rgb(58,63,69);
+	margin-top: 5px;
+	margin-left: -5px;
+}
+
+.menu-bar ul li:hover .sub-menu1 ul
+{
+	display: block;
+	margin: 10px;
+}
+
+.menu-bar ul li:hover .sub-menu1 ul li
+{
+	width: 150px;
+	padding: 10px;
+	border-bottom: 1px #fff;
+	background: transparent;
+	border-radius: 0;
+	text-align: left;
+}
+
+.menu-bar ul li:hover .sub-menu1 ul li:last-child
+{
+	border-bottom: none;
+}
+
+.menu-bar ul li:hover .sub-menu1 ul li a:hover
+{
+	color: #ccced7;
+}
+
+.title{
+	text-align:center;
+	width:1300px;
+	font-size:75px;
+	margin-top:40px;
+	margin-left:30px;
+	color:white;
+}
+
+.tag{
+	text-align:center;
+	width:1300px;
+	font-size:20px;
+	color:#fff;
+	transition:0.5s;
+}
+
+.tag:hover{
+	color:#502e08;
+}
+
+.say{
+	margin-left:80px;
+	text-align:CENTER;
+	width:700px;
+	font-size:15px;
+
+}
+
+.saybg{
+	width:850px;
+	height:350px;
+	margin-top:30px;
+	margin-left:250px;
+	background-color:rgba(255,255,255,0.5);
+
+}
+.start{
+	background:rgba(142,71,4,0.5);
+	border:2px solid white;
+	border-radius:50px;
+	width:200px;
+	height:50px;
+	margin-left:550px;
+	margin-top:32px;
+}
+.st{
+	text-align:center;
+	padding:15px;
+	font-size:20px;
+	
+}
+
+.start:active{
+	box-shadow: 0px 0px 35px #000;
+	border:none;
+	background:#faa85b;
+}
+
+a{
+	text-decoration: none;
+	color:white;
+}
